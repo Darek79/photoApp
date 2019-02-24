@@ -1,0 +1,19 @@
+
+{{!-- <form action="/search" method="POST" >
+    <span>search a product</span>
+  
+        <input type="text" id="inp1" class="form-control" required placeholder="type a brand">
+  
+    <button type="submit" class="btn btn-primary">search</button>
+</form> --}}
+
+{{#each prod}}
+
+    <div>
+        <p>{{brand}}</p>
+        <p>{{product}}</p>
+        <img src="https://mosaic03.ztat.net/vgs/media/packshot/pdp-color-big/GP/02/4L/02/QM/11/GP024L02Q-M11@8.jpg" alt="{{product}}">
+        <p>{{amount}}</p>
+    </div>
+
+{{/each}}
